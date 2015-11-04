@@ -31,7 +31,7 @@ To install pnml2pins run the following commands:
  - Distributed explicit (`pins2lts-dist`)
  
 ### Reduction techniques:
- - Partial Order Reduction: [The state explosion problem](http://dx.doi.org/10.1007/3-540-65306-6_21) (`pins2lts-[seq|mc] --por`)
+ - Partial Order Reduction: [The state explosion problem](http://dx.doi.org/10.1007/3-540-65306-6_21) (`pins2lts-mc --por`)
 
 ### Other features:
  - Transition labels for traces/witnesses (`pins2lts-* --action=<transition-name>`)
